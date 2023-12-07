@@ -1,0 +1,27 @@
+
+# Misc
+.DS_Store
+.idea
+.deps
+
+# Dependencies
+node_modules
+
+# Tests
+coverage
+coverage.json
+
+# Build files
+build
+tmpSrc
+**/generated
+typechain
+typechain-ethers6
+
+# Secrets
+.env
+
+# Hardhat files
+cache
+artifacts
+hardhat.config.ts
