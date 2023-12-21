@@ -9,6 +9,9 @@ export function getNetworkOverrides(network: string) {
     case "sokol":
       networkOverrides.maxPriorityFeePerGas = 1000000000;
       break;
+    case "poa":
+      networkOverrides.maxPriorityFeePerGas = 1000000000;
+      break;
   }
   return networkOverrides;
 }
